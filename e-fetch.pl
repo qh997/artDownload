@@ -7,17 +7,17 @@ use Encode qw(decode encode);
 
 $SIG{INT} = \&get_out;
 
-my $url = 'http://www.airenti.org/yazhourenti/'; # 'http://airenti.org/Html/Type/1_1.html';
+my $url = 'http://www.airenti.org/oumeirenti/';
 my $url_girls = 'http://www.airenti.org/Html/';
-my $local_path = '/cygdrive/d/Downloads/art/';
+my $local_path = '/cygdrive/d/Downloads/e-art/';
 my @store_path = (
-    '/cygdrive/g/用户-User/Pictures/Pornography/art00/',
-    '/cygdrive/g/用户-User/Pictures/Pornography/art01/',
-    '/cygdrive/g/用户-User/Pictures/Pornography/art02/',
-    '/cygdrive/g/用户-User/Pictures/Pornography/art03/',
-    '/cygdrive/g/用户-User/Pictures/Pornography/art04/',
-    '/cygdrive/g/用户-User/Pictures/Pornography/art05/',
-    '/cygdrive/g/用户-User/Pictures/Pornography/art06/',
+    '/cygdrive/g/用户-User/Pictures/Pornography/e-art00/',
+    '/cygdrive/g/用户-User/Pictures/Pornography/e-art01/',
+    '/cygdrive/g/用户-User/Pictures/Pornography/e-art02/',
+    '/cygdrive/g/用户-User/Pictures/Pornography/e-art03/',
+    '/cygdrive/g/用户-User/Pictures/Pornography/e-art04/',
+    '/cygdrive/g/用户-User/Pictures/Pornography/e-art05/',
+    '/cygdrive/g/用户-User/Pictures/Pornography/e-art06/',
 );
 my $crt_file = '';
 my $tmp_dir = '.art';
